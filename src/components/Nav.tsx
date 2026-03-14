@@ -34,7 +34,7 @@ const Nav = ({ variant }: NavProps) => {
         </a>
 
         <a
-          href="https://github.com"
+          href="https://github.com/barry-saaun"
           target="_blank"
           rel="noreferrer"
           className={`font-mono text-xs uppercase tracking-[0.2em] transition-opacity hover:opacity-70 ${textColor}`}

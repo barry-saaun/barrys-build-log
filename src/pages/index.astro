@@ -1,6 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Nav from '~/components/Nav.tsx';
+import Layout from "../layouts/Layout.astro";
+import HeroSection from "../components/HeroSection.astro";
+import Nav from "~/components/Nav.tsx";
+import "../styles/global.css";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -8,7 +10,11 @@ import Nav from '~/components/Nav.tsx';
 
 <Layout>
   <div class="min-h-screen bg-background">
-    <Nav  client:load variant="core"/>
+    <div class="bg-core min-h-screen flex flex-col">
+      <Nav client:load variant="core" />
+
+      <HeroSection />
+    </div>
     <!-- hello world -->
   </div>
 </Layout>

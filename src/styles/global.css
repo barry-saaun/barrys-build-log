@@ -2,6 +2,8 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/jetbrains-mono";
+@import "@fontsource/cormorant-garamond";
+@import "@fontsource/bebas-neue";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -55,7 +57,10 @@
 }
 
 @theme inline {
+  /* Typography */
   --font-mono: "jetbrains mono variable", monospace;
+  --font-heading: "Bebas Neue", sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
 
   --color-core: var(--core);
   --color-dark: var(--core-dark);

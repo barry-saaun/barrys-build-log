@@ -11,4 +11,8 @@ export default defineConfig({
   },
 
   integrations: [react()],
+  devToolBar: {
+    enabled: false,
+  },
 });
+

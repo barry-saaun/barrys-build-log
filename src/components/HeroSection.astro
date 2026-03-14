@@ -1,0 +1,31 @@
+---
+import "../styles/global.css";
+---
+
+<div
+  class="min-h-screen flex flex-col items-center justify-center text-center px-8 pt-24 pb-16 gap-10"
+>
+  <!-- Content -->
+  <p class="font-mono text-xs tracking-[0.3em] uppercase text-cream/60">
+    A developer's build journal
+  </p>
+
+  <!-- Big Statement -->
+  <h1 class="font-display font-light text-cream leading-[0.9] mb-6 max-w-4xl">
+    <span class="block text-[clamp(4rem,12vw,10rem)]">build</span>
+    <span class="block text-[clamp(4rem,12vw,10rem)] italic">log.</span>
+  </h1>
+
+  <p class="font-mono text-sm text-cream/70 max-w-sm leading-relaxed mt-4">
+    Raw notes from the process —{" "}
+    <br class="hidden md:block" />
+    architecture, mistakes, reflection, and the occasional breakthrough.
+  </p>
+  {/* Scroll hint */}
+  <div
+    class="mt-16 font-mono text-xs text-cream/50 tracking-widest flex flex-col gap-4"
+  >
+    <span class="block text-center animate-bounce text-xl">↓</span>
+    <span>Keep scrolling for the good stuff.</span>
+  </div>
+</div>
