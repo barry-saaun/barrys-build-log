@@ -114,6 +114,7 @@
   }
   html {
     @apply font-mono;
+    scroll-behavior: smooth;
   }
 }
 

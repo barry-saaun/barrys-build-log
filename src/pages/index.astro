@@ -1,8 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import HeroSection from "../components/HeroSection.astro";
-import Nav from "~/components/Nav.tsx";
-import TickerText from "~/components/TickerText.astro";
+import HeroSection from "../components/astro/HeroSection.astro";
+import Nav from "~/components/react/Nav.tsx";
+import TickerText from "~/components/astro/TickerText.astro";
 import "../styles/global.css";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -19,4 +19,5 @@ import "../styles/global.css";
       <TickerText />
     </div>
   </div>
+  <div class="min-h-screen bg-cream-dark">test</div>
 </Layout>
